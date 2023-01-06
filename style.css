@@ -1,0 +1,28 @@
+body {
+  background-image: url(flag.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+}
+
+@media only screen and (max-width: 767px) {
+  body {
+    background-image: url(flag.jpg);
+  }
+}
+
+p {
+  background: rgba(71, 68, 68, 0.5);
+  color: #f1f1f1;
+}
+
+.fw-dark {
+  color: rgb(20, 20, 19);
+  text-shadow: #46464629;
+}
+
+.shadow {
+  margin-bottom: 1em;
+}
